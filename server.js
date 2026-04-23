@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Server is running xyz 123");
+  res.send("Server is running xyz 123 anuj");
 });
 
 server.listen(3000, () => {
